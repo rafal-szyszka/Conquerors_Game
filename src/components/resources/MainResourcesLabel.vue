@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="z-index: 1">
     <full-resources-table v-if="fullList"/>
     <div class="container" @click="toggleListView">
       <div class="row gradient-bg">
